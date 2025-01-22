@@ -8,7 +8,7 @@ export default function AdScript() {
     const script = document.createElement("script");
     script.type = "text/javascript";
     script.src =
-      "//evendisciplineseedlings.com/ca/86/51/ca86514362b783b9e9d69e455eca31f5.js";
+      "";
     script.async = true;
 
     // Append script to the <head> tag
