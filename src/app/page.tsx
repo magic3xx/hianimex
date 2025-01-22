@@ -101,14 +101,15 @@ export default function Marketing() {
         <div className="mx-auto flex w-full max-w-[1360px] flex-col items-center justify-between gap-4 sm:flex-row">
           <p>Made with ❤️</p>
 
-          <div className="flex items-center gap-1">
-            <p>All rights reserved to its developer!</p>
+         <div className="flex items-center gap-1">
+            <p>Hianime does not store any files on our server, we only share link to the media which is hosted on 3rd party services.
+</p>
             <Link
-              href="https://github.com/zeddxx"
+              href="https://www.hianimex.to"
               target="_blank"
               className="text-secondary underline underline-offset-2"
             >
-              Github
+              Hianimex.to
             </Link>
           </div>
         </div>
