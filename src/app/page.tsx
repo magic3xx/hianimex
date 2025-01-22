@@ -102,7 +102,7 @@ export default function Marketing() {
           <p>Made with ❤️</p>
 
          <div className="flex items-center gap-1">
-            <p>Hianime does not store any files on our server, we only share link to the media which is hosted on 3rd party services.
+            <p>Hianime does not store any files on our server.
 </p>
             <Link
               href="https://www.hianimex.to"
