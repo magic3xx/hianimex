@@ -9,6 +9,14 @@ const nextConfig = {
       },
     ],
   },
+  async rewrites() {
+    return [
+      {
+        source: "/api/proxy/:path*",  // Proxy route
+        destination: "https://api.animemundo.net/api/v2/hianime/:path*",  // Actual API URL
+      },
+    ];
+  },
 };
 
 export default nextConfig;
